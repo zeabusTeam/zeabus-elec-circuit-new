@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP UEI30-050-Q12P-C
+F https://power.murata.com/pub/data/power/mdc_uei-30w.pdf
+$ENDCMP
+#
 $CMP UWE-12-10-Q12N-C
 F https://power.murata.com/pub/data/power/uwe-100-120.pdf
 $ENDCMP
