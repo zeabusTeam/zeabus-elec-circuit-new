@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UWE-12-10-Q12N-C
+F https://power.murata.com/pub/data/power/uwe-100-120.pdf
+$ENDCMP
+#
+$CMP UWE-12-10-Q12NB-C
+F https://power.murata.com/pub/data/power/uwe-100-120.pdf
+$ENDCMP
+#
+$CMP UWE-12-10-Q12P-C
+F https://power.murata.com/pub/data/power/uwe-100-120.pdf
+$ENDCMP
+#
+$CMP UWE-12-10-Q12PB-C
+F https://power.murata.com/pub/data/power/uwe-100-120.pdf
+$ENDCMP
+#
+#End Doc Library
