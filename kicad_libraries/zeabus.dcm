@@ -1,5 +1,29 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TMR_6-2410WI
+F https://assets.tracopower.com/20200109160327/TMR6WI/documents/tmr6wi-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_6-2411WI
+F https://assets.tracopower.com/20200109160327/TMR6WI/documents/tmr6wi-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_6-2412WI
+F https://assets.tracopower.com/20200109160327/TMR6WI/documents/tmr6wi-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_6-2413WI
+F https://assets.tracopower.com/20200109160327/TMR6WI/documents/tmr6wi-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_6-2415WI
+F https://assets.tracopower.com/20200109160327/TMR6WI/documents/tmr6wi-datasheet.pdf
+$ENDCMP
+#
+$CMP TMR_6-2419WI
+F https://assets.tracopower.com/20200109160327/TMR6WI/documents/tmr6wi-datasheet.pdf
+$ENDCMP
+#
 $CMP UEI30-050-Q12P-C
 F https://power.murata.com/pub/data/power/mdc_uei-30w.pdf
 $ENDCMP
