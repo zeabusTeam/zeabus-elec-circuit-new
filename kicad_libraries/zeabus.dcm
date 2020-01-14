@@ -44,4 +44,16 @@ $CMP UWE-12-10-Q12PB-C
 F https://power.murata.com/pub/data/power/uwe-100-120.pdf
 $ENDCMP
 #
+$CMP i6A4W010A033V-001-R
+F https://www.us.tdk-lambda.com/ftp/specs/i6a4w.pdf
+$ENDCMP
+#
+$CMP i6A4W020A033V-000-R
+F https://www.us.tdk-lambda.com/ftp/specs/i6a4w.pdf
+$ENDCMP
+#
+$CMP i6A4W020A033V-001-R
+F https://www.us.tdk-lambda.com/ftp/specs/i6a4w.pdf
+$ENDCMP
+#
 #End Doc Library
