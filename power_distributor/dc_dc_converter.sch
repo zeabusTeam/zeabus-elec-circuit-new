@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -14,235 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1450 2500 0    50   Input ~ 0
-Computer_EN
-$Comp
-L zeabus:UEI30-050-Q12P-C U?
-U 1 1 5E49F5B5
-P 7500 5650
-AR Path="/5E49F5B5" Ref="U?"  Part="1" 
-AR Path="/5E289D51/5E49F5B5" Ref="U?"  Part="1" 
-F 0 "U?" H 7525 6217 50  0000 C CNN
-F 1 "UEI30-050-Q12P-C" H 7525 6126 50  0000 C CNN
-F 2 "" H 7700 6500 50  0001 C CNN
-F 3 "https://power.murata.com/pub/data/power/mdc_uei-30w.pdf" H 7700 6500 50  0001 C CNN
-	1    7500 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 5650 6700 5650
-$Comp
-L Device:C_Small C?
-U 1 1 5E4B765C
-P 8600 5650
-AR Path="/5E4B765C" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E4B765C" Ref="C?"  Part="1" 
-F 0 "C?" H 8692 5696 50  0000 L CNN
-F 1 "1uF" H 8692 5605 50  0000 L CNN
-F 2 "" H 8600 5650 50  0001 C CNN
-F 3 "~" H 8600 5650 50  0001 C CNN
-	1    8600 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C?
-U 1 1 5E4B766A
-P 9350 5650
-AR Path="/5E4B766A" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E4B766A" Ref="C?"  Part="1" 
-F 0 "C?" H 9441 5696 50  0000 L CNN
-F 1 "100uF" H 9441 5605 50  0000 L CNN
-F 2 "" H 9350 5650 50  0001 C CNN
-F 3 "~" H 9350 5650 50  0001 C CNN
-	1    9350 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E4B7674
-P 8950 5650
-AR Path="/5E4B7674" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E4B7674" Ref="C?"  Part="1" 
-F 0 "C?" H 9042 5696 50  0000 L CNN
-F 1 "10uF" H 9042 5605 50  0000 L CNN
-F 2 "" H 8950 5650 50  0001 C CNN
-F 3 "~" H 8950 5650 50  0001 C CNN
-	1    8950 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 5750 8600 5950
-Wire Wire Line
-	8950 5350 8950 5550
-Wire Wire Line
-	8950 5750 8950 5950
-Wire Wire Line
-	8950 5950 8600 5950
-Wire Wire Line
-	8950 5350 9350 5350
-Wire Wire Line
-	9350 5350 9350 5550
-Connection ~ 8950 5350
-Wire Wire Line
-	9350 5750 9350 5950
-Wire Wire Line
-	9350 5950 8950 5950
-Connection ~ 8950 5950
-Wire Wire Line
-	8600 5350 8950 5350
-Wire Wire Line
-	8600 5350 8600 5550
-Connection ~ 8600 5350
-Connection ~ 8600 5950
-Wire Wire Line
-	9350 5950 9800 5950
-Connection ~ 9350 5950
-Wire Wire Line
-	9350 5350 9800 5350
-Connection ~ 9350 5350
-Text HLabel 9800 5950 2    50   Output ~ 0
-GND_5V_ISOLATED
-Text HLabel 9800 5350 2    50   Output ~ 0
-+5V_ISOLATED
-Wire Wire Line
-	8350 5950 8450 5950
-NoConn ~ 8350 5650
-$Comp
-L Device:C_Small C?
-U 1 1 5E5BD99E
-P 6150 5650
-AR Path="/5E5BD99E" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E5BD99E" Ref="C?"  Part="1" 
-F 0 "C?" H 6242 5696 50  0000 L CNN
-F 1 "10uF" H 6242 5605 50  0000 L CNN
-F 2 "" H 6150 5650 50  0001 C CNN
-F 3 "~" H 6150 5650 50  0001 C CNN
-	1    6150 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E5BD9A8
-P 5750 5650
-AR Path="/5E5BD9A8" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E5BD9A8" Ref="C?"  Part="1" 
-F 0 "C?" H 5842 5696 50  0000 L CNN
-F 1 "22uF" H 5842 5605 50  0000 L CNN
-F 2 "" H 5750 5650 50  0001 C CNN
-F 3 "~" H 5750 5650 50  0001 C CNN
-	1    5750 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 5550 6150 5350
-Wire Wire Line
-	5750 5750 5750 5950
-Wire Wire Line
-	6150 5750 6150 5950
-Wire Wire Line
-	5300 5350 5300 5550
-Wire Wire Line
-	5300 5750 5300 5950
-Wire Wire Line
-	5050 5950 5300 5950
-Connection ~ 6150 5950
-Wire Wire Line
-	6150 5950 6600 5950
-Wire Wire Line
-	6150 5350 6600 5350
-$Comp
-L Device:CP1_Small C?
-U 1 1 5E5BD9BC
-P 5300 5650
-AR Path="/5E5BD9BC" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E5BD9BC" Ref="C?"  Part="1" 
-F 0 "C?" H 5391 5696 50  0000 L CNN
-F 1 "100uF" H 5391 5605 50  0000 L CNN
-F 2 "" H 5300 5650 50  0001 C CNN
-F 3 "~" H 5300 5650 50  0001 C CNN
-	1    5300 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 5950 6150 5950
-Wire Wire Line
-	5750 5550 5750 5350
-Wire Wire Line
-	5750 5350 6150 5350
-Connection ~ 6150 5350
-Wire Wire Line
-	5750 5350 5300 5350
-Connection ~ 5750 5350
-Wire Wire Line
-	5300 5950 5750 5950
-Connection ~ 5300 5950
-Connection ~ 5750 5950
-Wire Wire Line
-	5050 5950 5050 6050
-$Comp
-L power:GND #PWR?
-U 1 1 5E5CD18F
-P 5050 6050
-F 0 "#PWR?" H 5050 5800 50  0001 C CNN
-F 1 "GND" H 5055 5877 50  0000 C CNN
-F 2 "" H 5050 6050 50  0001 C CNN
-F 3 "" H 5050 6050 50  0001 C CNN
-	1    5050 6050
-	1    0    0    -1  
-$EndComp
+COMPUTER_EN
 Wire Wire Line
 	4850 1350 4850 3000
-Wire Wire Line
-	6600 6400 6600 5950
-Wire Wire Line
-	8450 6400 8450 5950
-Wire Wire Line
-	6600 6400 7400 6400
-Wire Wire Line
-	7600 6400 8450 6400
-Connection ~ 6600 5950
-Wire Wire Line
-	6600 5950 6700 5950
-Connection ~ 8450 5950
-Wire Wire Line
-	8450 5950 8600 5950
-Wire Wire Line
-	6600 5350 6600 4900
-Wire Wire Line
-	6600 4900 7400 4900
-Connection ~ 6600 5350
-Wire Wire Line
-	6600 5350 6700 5350
-$Comp
-L Device:C_Small C?
-U 1 1 5E76D908
-P 7500 4900
-F 0 "C?" V 7271 4900 50  0000 C CNN
-F 1 "1000pF,3kV" V 7362 4900 50  0000 C CNN
-F 2 "" H 7500 4900 50  0001 C CNN
-F 3 "~" H 7500 4900 50  0001 C CNN
-	1    7500 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E76DC3A
-P 7500 6400
-F 0 "C?" V 7271 6400 50  0000 C CNN
-F 1 "1000pF,3kV" V 7362 6400 50  0000 C CNN
-F 2 "" H 7500 6400 50  0001 C CNN
-F 3 "~" H 7500 6400 50  0001 C CNN
-	1    7500 6400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8450 5350 8600 5350
-Connection ~ 8450 5350
-Wire Wire Line
-	8350 5350 8450 5350
-Wire Wire Line
-	7600 4900 8450 4900
-Wire Wire Line
-	8450 4900 8450 5350
 Text HLabel 1450 1350 0    50   Input ~ 0
 +BATT
 $Comp
@@ -535,10 +309,6 @@ Connection ~ 1300 3950
 Connection ~ 4850 3000
 Wire Wire Line
 	1450 1350 4850 1350
-Wire Wire Line
-	4850 5350 5300 5350
-Connection ~ 4850 5350
-Connection ~ 5300 5350
 Text HLabel 3850 3950 2    50   Output ~ 0
 GND_8.4V_ISOLATED_1
 Text HLabel 3850 3450 2    50   Output ~ 0
@@ -666,6 +436,8 @@ Wire Wire Line
 	850  3450 850  4600
 Wire Wire Line
 	1300 3000 4850 3000
+Wire Wire Line
+	4850 3000 4850 5350
 $Sheet
 S 5850 1250 1600 650 
 U 5E4A79D7
@@ -676,8 +448,16 @@ F3 "GND_12V_ISOLATED_1" O R 7450 1450 50
 F4 "+12V_ISOLATED_2" O R 7450 1700 50 
 F5 "GND_12V_ISOLATED_2" O R 7450 1800 50 
 F6 "+BATT" I L 5850 1350 50 
-F7 "Computer_EN" I L 5850 1600 50 
+F7 "COMPUTER_EN" I L 5850 1600 50 
 $EndSheet
-Wire Wire Line
-	4850 3000 4850 5350
+$Sheet
+S 5850 2400 1450 450 
+U 5E2260E0
+F0 "5V_DC/DC_converter" 50
+F1 "dc_dc_converter_5v.sch" 50
+F2 "GND_5V_ISOLATED" O R 7300 2600 50 
+F3 "+5V_ISOLATED" O R 7300 2500 50 
+F4 "+BATT" I L 5850 2500 50 
+F5 "COMPUTER_EN" I L 5850 2750 50 
+$EndSheet
 $EndSCHEMATC
