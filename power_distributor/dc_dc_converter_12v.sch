@@ -512,7 +512,7 @@ Text HLabel 2300 2000 0    50   Input ~ 0
 Text HLabel 2300 2250 0    50   Input ~ 0
 COMPUTER_EN
 Wire Wire Line
-	2300 2000 3900 2000
+	2300 2000 3400 2000
 Connection ~ 3900 2000
 Wire Wire Line
 	3100 3350 5100 3350
@@ -525,4 +525,12 @@ Wire Wire Line
 	2300 2250 3100 2250
 Wire Wire Line
 	3100 2250 3100 3350
+Wire Wire Line
+	3900 4050 3400 4050
+Wire Wire Line
+	3400 4050 3400 2000
+Connection ~ 3900 4050
+Connection ~ 3400 2000
+Wire Wire Line
+	3400 2000 3900 2000
 $EndSCHEMATC
