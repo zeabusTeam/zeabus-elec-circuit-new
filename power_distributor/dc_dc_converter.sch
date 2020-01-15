@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -85,200 +85,8 @@ Wire Wire Line
 	1300 3450 1750 3450
 Wire Wire Line
 	1300 3950 1750 3950
-$Comp
-L zeabus:TMR_6-2415WI U?
-U 1 1 5E761D72
-P 3600 6900
-AR Path="/5E761D72" Ref="U?"  Part="1" 
-AR Path="/5E289D51/5E761D72" Ref="U?"  Part="1" 
-F 0 "U?" H 3600 7367 50  0000 C CNN
-F 1 "TMR_6-2415WI" H 3600 7276 50  0000 C CNN
-F 2 "" H 3650 7200 50  0001 C CNN
-F 3 "https://assets.tracopower.com/20200109160327/TMR6WI/documents/tmr6wi-datasheet.pdf" H 3650 7200 50  0001 C CNN
-	1    3600 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E1EF6AE
-P 2400 6900
-AR Path="/5E1EF6AE" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E1EF6AE" Ref="C?"  Part="1" 
-F 0 "C?" H 2492 6946 50  0000 L CNN
-F 1 "10uF" H 2492 6855 50  0000 L CNN
-F 2 "" H 2400 6900 50  0001 C CNN
-F 3 "~" H 2400 6900 50  0001 C CNN
-	1    2400 6900
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2800 6900
-Wire Wire Line
-	2400 6700 2400 6800
-Wire Wire Line
-	2400 7000 2400 7100
-$Comp
-L Device:C_Small C?
-U 1 1 5E2195BC
-P 1900 6900
-AR Path="/5E2195BC" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E2195BC" Ref="C?"  Part="1" 
-F 0 "C?" H 1992 6946 50  0000 L CNN
-F 1 "10uF" H 1992 6855 50  0000 L CNN
-F 2 "" H 1900 6900 50  0001 C CNN
-F 3 "~" H 1900 6900 50  0001 C CNN
-	1    1900 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 6800 1900 6700
-Connection ~ 2400 6700
-Wire Wire Line
-	2300 6700 2400 6700
-Wire Wire Line
-	1900 6700 2000 6700
-Wire Wire Line
-	1900 7000 1900 7100
-Wire Wire Line
-	1900 7100 2400 7100
-Connection ~ 2400 7100
-Wire Wire Line
-	2400 6700 2700 6700
-Wire Wire Line
-	2400 7100 2700 7100
-$Comp
-L Device:CP1_Small C?
-U 1 1 5E2B1EC2
-P 4650 6900
-AR Path="/5E2B1EC2" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E2B1EC2" Ref="C?"  Part="1" 
-F 0 "C?" H 4741 6946 50  0000 L CNN
-F 1 "100uF" H 4741 6855 50  0000 L CNN
-F 2 "" H 4650 6900 50  0001 C CNN
-F 3 "~" H 4650 6900 50  0001 C CNN
-	1    4650 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C?
-U 1 1 5E2B3DF0
-P 1450 6900
-AR Path="/5E2B3DF0" Ref="C?"  Part="1" 
-AR Path="/5E289D51/5E2B3DF0" Ref="C?"  Part="1" 
-F 0 "C?" H 1541 6946 50  0000 L CNN
-F 1 "100uF" H 1541 6855 50  0000 L CNN
-F 2 "" H 1450 6900 50  0001 C CNN
-F 3 "~" H 1450 6900 50  0001 C CNN
-	1    1450 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E2B651E
-P 3600 6250
-F 0 "C?" V 3371 6250 50  0000 C CNN
-F 1 "1000pF,3kV" V 3462 6250 50  0000 C CNN
-F 2 "" H 3600 6250 50  0001 C CNN
-F 3 "~" H 3600 6250 50  0001 C CNN
-	1    3600 6250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1900 6700 1450 6700
-Wire Wire Line
-	1450 6700 1450 6800
-Connection ~ 1900 6700
-Wire Wire Line
-	1450 7000 1450 7100
-Wire Wire Line
-	1450 7100 1900 7100
-Connection ~ 1900 7100
-$Comp
-L Device:C_Small C?
-U 1 1 5E2E841D
-P 3600 7550
-F 0 "C?" V 3371 7550 50  0000 C CNN
-F 1 "1000pF,3kV" V 3462 7550 50  0000 C CNN
-F 2 "" H 3600 7550 50  0001 C CNN
-F 3 "~" H 3600 7550 50  0001 C CNN
-	1    3600 7550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2700 6250 2700 6700
-Connection ~ 2700 6700
-Wire Wire Line
-	2700 6700 2800 6700
-Wire Wire Line
-	2700 7100 2700 7550
-Connection ~ 2700 7100
-Wire Wire Line
-	2700 7100 2800 7100
-Wire Wire Line
-	2700 7550 3500 7550
-Wire Wire Line
-	4500 6250 4500 6700
-Wire Wire Line
-	4500 6700 4400 6700
-Wire Wire Line
-	4400 7100 4500 7100
-Wire Wire Line
-	4500 7100 4500 7550
-Wire Wire Line
-	4500 7550 3700 7550
-Wire Wire Line
-	4500 6700 4650 6700
-Wire Wire Line
-	4650 6700 4650 6800
-Connection ~ 4500 6700
-Wire Wire Line
-	4650 7000 4650 7100
-Wire Wire Line
-	4650 7100 4500 7100
-Connection ~ 4500 7100
-$Comp
-L Device:L_Core_Iron L?
-U 1 1 5E3CED3B
-P 2150 6700
-F 0 "L?" V 2375 6700 50  0000 C CNN
-F 1 "10uH,1A" V 2284 6700 50  0000 C CNN
-F 2 "" H 2150 6700 50  0001 C CNN
-F 3 "~" H 2150 6700 50  0001 C CNN
-	1    2150 6700
-	0    -1   -1   0   
-$EndComp
-Text HLabel 5100 7100 2    50   Output ~ 0
-GND_24V_ISOLATED
-Text HLabel 5100 6700 2    50   Output ~ 0
-+24V_ISOLATED
-Wire Wire Line
-	4650 6700 5100 6700
-Connection ~ 4650 6700
-Wire Wire Line
-	5100 7100 4650 7100
-Connection ~ 4650 7100
-$Comp
-L power:GND #PWR?
-U 1 1 5E4A7F2F
-P 1450 7200
-F 0 "#PWR?" H 1450 6950 50  0001 C CNN
-F 1 "GND" H 1455 7027 50  0000 C CNN
-F 2 "" H 1450 7200 50  0001 C CNN
-F 3 "" H 1450 7200 50  0001 C CNN
-	1    1450 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 7100 1450 7200
-Connection ~ 1450 7100
-Connection ~ 1450 6700
-Wire Wire Line
-	3700 6250 4500 6250
-Wire Wire Line
-	2700 6250 3500 6250
 Wire Wire Line
 	1450 5350 4850 5350
-Wire Wire Line
-	1450 5350 1450 6700
 Wire Wire Line
 	2850 3450 3400 3450
 Wire Wire Line
@@ -459,5 +267,14 @@ F2 "GND_5V_ISOLATED" O R 7300 2600 50
 F3 "+5V_ISOLATED" O R 7300 2500 50 
 F4 "+BATT" I L 5850 2500 50 
 F5 "COMPUTER_EN" I L 5850 2750 50 
+$EndSheet
+$Sheet
+S 5850 3250 1200 300 
+U 5E25402F
+F0 "24V_DC/DC_converter" 50
+F1 "dc_dc_converter_24v.sch" 50
+F2 "GND_24V_ISOLATED" O R 7050 3450 50 
+F3 "+24V_ISOLATED" O R 7050 3350 50 
+F4 "+BATT" I L 5850 3350 50 
 $EndSheet
 $EndSCHEMATC
