@@ -24,3 +24,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+*-cache.lib
+*-cache.dcm
+*-rescue.lib
+*-rescue.dcm
