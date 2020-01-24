@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -58,4 +58,12 @@ F 3 "~" H 2450 3500 50  0001 C CNN
 	1    2450 3500
 	-1   0    0    -1  
 $EndComp
+$Sheet
+S 5200 3600 1800 800 
+U 5E26A24F
+F0 "Load_switch" 50
+F1 "load_switch.sch" 50
+$EndSheet
+Text Label 3600 3300 0    50   ~ 0
+DC-DC-GND
 $EndSCHEMATC
