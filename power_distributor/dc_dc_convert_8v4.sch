@@ -114,18 +114,11 @@ F 3 "" H 4600 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4600 3200
-Text HLabel 7150 3200 2    50   Output ~ 0
-GND_8.4V_ISOLATED_1
 Text HLabel 7150 2700 2    50   Output ~ 0
-+8.4V_ISOLATED_1
++8.4V_1
 Wire Wire Line
 	6700 2700 7150 2700
-Wire Wire Line
-	7150 3200 6700 3200
 Connection ~ 6700 2700
-Connection ~ 6700 3200
-Wire Wire Line
-	6700 3050 6700 3200
 $Comp
 L zeabus:i6A4W020A033V-001-R U?
 U 1 1 5E275539
@@ -227,16 +220,11 @@ F 3 "" H 4600 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4600 4650
-Text HLabel 7150 4650 2    50   Output ~ 0
-GND_8.4V_ISOLATED_2
 Text HLabel 7150 4150 2    50   Output ~ 0
-+8.4V_ISOLATED_2
++8.4V_2
 Wire Wire Line
 	6700 4150 7150 4150
-Wire Wire Line
-	7150 4650 6700 4650
 Connection ~ 6700 4150
-Connection ~ 6700 4650
 Wire Wire Line
 	6700 4500 6700 4650
 Text HLabel 3000 2700 0    50   Input ~ 0
@@ -252,4 +240,38 @@ Connection ~ 4150 2700
 Wire Wire Line
 	4150 2700 4600 2700
 Connection ~ 4600 4150
+Wire Wire Line
+	6700 3050 6700 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5E38A920
+P 6700 3300
+AR Path="/5E289D51/5E38A920" Ref="#PWR?"  Part="1" 
+AR Path="/5E289D51/5E2733D2/5E38A920" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 3050 50  0001 C CNN
+F 1 "GND" H 6705 3127 50  0000 C CNN
+F 2 "" H 6700 3300 50  0001 C CNN
+F 3 "" H 6700 3300 50  0001 C CNN
+	1    6700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3200 6700 3300
+Connection ~ 6700 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5E38FBC1
+P 6700 4750
+AR Path="/5E289D51/5E38FBC1" Ref="#PWR?"  Part="1" 
+AR Path="/5E289D51/5E2733D2/5E38FBC1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 4500 50  0001 C CNN
+F 1 "GND" H 6705 4577 50  0000 C CNN
+F 2 "" H 6700 4750 50  0001 C CNN
+F 3 "" H 6700 4750 50  0001 C CNN
+	1    6700 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4650 6700 4750
+Connection ~ 6700 4650
 $EndSCHEMATC

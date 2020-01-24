@@ -64,6 +64,4 @@ U 5E26A24F
 F0 "Load_switch" 50
 F1 "load_switch.sch" 50
 $EndSheet
-Text Label 3600 3300 0    50   ~ 0
-DC-DC-GND
 $EndSCHEMATC
