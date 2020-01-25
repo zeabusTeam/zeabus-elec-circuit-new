@@ -62,29 +62,22 @@ $EndComp
 Wire Wire Line
 	6700 2700 6700 2850
 Connection ~ 6150 2700
-NoConn ~ 5050 2950
 $Comp
 L Device:CP1_Small C?
 U 1 1 5E275518
-P 4600 2950
+P 4550 2950
 AR Path="/5E275518" Ref="C?"  Part="1" 
 AR Path="/5E289D51/5E275518" Ref="C?"  Part="1" 
 AR Path="/5E289D51/5E2733D2/5E275518" Ref="C?"  Part="1" 
-F 0 "C?" H 4691 2996 50  0000 L CNN
-F 1 "100uF" H 4691 2905 50  0000 L CNN
-F 2 "" H 4600 2950 50  0001 C CNN
-F 3 "~" H 4600 2950 50  0001 C CNN
-	1    4600 2950
+F 0 "C?" H 4641 2996 50  0000 L CNN
+F 1 "100uF" H 4641 2905 50  0000 L CNN
+F 2 "" H 4550 2950 50  0001 C CNN
+F 3 "~" H 4550 2950 50  0001 C CNN
+	1    4550 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 2700 4600 2850
-Wire Wire Line
-	4600 3200 4600 3050
-Wire Wire Line
-	4600 2700 5050 2700
-Wire Wire Line
-	4600 3200 5050 3200
+	4550 2700 4550 2850
 Wire Wire Line
 	6150 2700 6700 2700
 Wire Wire Line
@@ -98,40 +91,24 @@ Wire Wire Line
 Connection ~ 6550 3200
 Wire Wire Line
 	6550 3200 6700 3200
-Wire Wire Line
-	4600 3200 4600 3300
 $Comp
 L power:GND #PWR?
 U 1 1 5E27552A
-P 4600 3300
+P 4550 3300
 AR Path="/5E289D51/5E27552A" Ref="#PWR?"  Part="1" 
 AR Path="/5E289D51/5E2733D2/5E27552A" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 4600 3050 50  0001 C CNN
-F 1 "GND" H 4605 3127 50  0000 C CNN
-F 2 "" H 4600 3300 50  0001 C CNN
-F 3 "" H 4600 3300 50  0001 C CNN
-	1    4600 3300
+F 0 "#PWR0105" H 4550 3050 50  0001 C CNN
+F 1 "GND" H 4555 3127 50  0000 C CNN
+F 2 "" H 4550 3300 50  0001 C CNN
+F 3 "" H 4550 3300 50  0001 C CNN
+	1    4550 3300
 	1    0    0    -1  
 $EndComp
-Connection ~ 4600 3200
 Text HLabel 7150 2700 2    50   Output ~ 0
 +8.4V_1
 Wire Wire Line
 	6700 2700 7150 2700
 Connection ~ 6700 2700
-$Comp
-L zeabus:i6A4W020A033V-001-R U?
-U 1 1 5E275539
-P 5550 4500
-AR Path="/5E289D51/5E275539" Ref="U?"  Part="1" 
-AR Path="/5E289D51/5E2733D2/5E275539" Ref="U?"  Part="1" 
-F 0 "U?" H 5550 5139 60  0000 C CNN
-F 1 "i6A4W020A033V-001-R" H 5550 5033 60  0000 C CNN
-F 2 "" H 5650 5000 60  0001 C CNN
-F 3 "https://www.us.tdk-lambda.com/ftp/specs/i6a4w.pdf" H 5650 5000 60  0001 C CNN
-	1    5550 4500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5E27553F
@@ -168,29 +145,22 @@ $EndComp
 Wire Wire Line
 	6700 4150 6700 4300
 Connection ~ 6150 4150
-NoConn ~ 5050 4400
 $Comp
 L Device:CP1_Small C?
 U 1 1 5E275551
-P 4600 4400
+P 4550 4400
 AR Path="/5E275551" Ref="C?"  Part="1" 
 AR Path="/5E289D51/5E275551" Ref="C?"  Part="1" 
 AR Path="/5E289D51/5E2733D2/5E275551" Ref="C?"  Part="1" 
-F 0 "C?" H 4691 4446 50  0000 L CNN
-F 1 "100uF" H 4691 4355 50  0000 L CNN
-F 2 "" H 4600 4400 50  0001 C CNN
-F 3 "~" H 4600 4400 50  0001 C CNN
-	1    4600 4400
+F 0 "C?" H 4641 4446 50  0000 L CNN
+F 1 "100uF" H 4641 4355 50  0000 L CNN
+F 2 "" H 4550 4400 50  0001 C CNN
+F 3 "~" H 4550 4400 50  0001 C CNN
+	1    4550 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 4150 4600 4300
-Wire Wire Line
-	4600 4650 4600 4500
-Wire Wire Line
-	4600 4150 5050 4150
-Wire Wire Line
-	4600 4650 5050 4650
+	4550 4150 4550 4300
 Wire Wire Line
 	6150 4150 6700 4150
 Wire Wire Line
@@ -204,22 +174,19 @@ Wire Wire Line
 Connection ~ 6550 4650
 Wire Wire Line
 	6550 4650 6700 4650
-Wire Wire Line
-	4600 4650 4600 4750
 $Comp
 L power:GND #PWR?
 U 1 1 5E275563
-P 4600 4750
+P 4550 4750
 AR Path="/5E289D51/5E275563" Ref="#PWR?"  Part="1" 
 AR Path="/5E289D51/5E2733D2/5E275563" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 4600 4500 50  0001 C CNN
-F 1 "GND" H 4605 4577 50  0000 C CNN
-F 2 "" H 4600 4750 50  0001 C CNN
-F 3 "" H 4600 4750 50  0001 C CNN
-	1    4600 4750
+F 0 "#PWR0106" H 4550 4500 50  0001 C CNN
+F 1 "GND" H 4555 4577 50  0000 C CNN
+F 2 "" H 4550 4750 50  0001 C CNN
+F 3 "" H 4550 4750 50  0001 C CNN
+	1    4550 4750
 	1    0    0    -1  
 $EndComp
-Connection ~ 4600 4650
 Text HLabel 7150 4150 2    50   Output ~ 0
 +8.4V_2
 Wire Wire Line
@@ -227,19 +194,17 @@ Wire Wire Line
 Connection ~ 6700 4150
 Wire Wire Line
 	6700 4500 6700 4650
-Text HLabel 3000 2700 0    50   Input ~ 0
+Text HLabel 2950 2700 0    50   Input ~ 0
 +BATT
 Wire Wire Line
-	3000 2700 4150 2700
-Connection ~ 4600 2700
+	2950 2700 4100 2700
 Wire Wire Line
-	4150 2700 4150 4150
+	4100 2700 4100 4150
 Wire Wire Line
-	4150 4150 4600 4150
-Connection ~ 4150 2700
+	4100 4150 4550 4150
+Connection ~ 4100 2700
 Wire Wire Line
-	4150 2700 4600 2700
-Connection ~ 4600 4150
+	4100 2700 4550 2700
 Wire Wire Line
 	6700 3050 6700 3200
 $Comp
@@ -274,4 +239,54 @@ $EndComp
 Wire Wire Line
 	6700 4650 6700 4750
 Connection ~ 6700 4650
+Text HLabel 2950 2950 0    50   Input ~ 0
+ACTUATOR_EN
+$Comp
+L zeabus:i6A4W020A033V-001-R U?
+U 1 1 5E275539
+P 5550 4500
+AR Path="/5E289D51/5E275539" Ref="U?"  Part="1" 
+AR Path="/5E289D51/5E2733D2/5E275539" Ref="U?"  Part="1" 
+F 0 "U?" H 5550 5139 60  0000 C CNN
+F 1 "i6A4W020A033V-001-R" H 5550 5033 60  0000 C CNN
+F 2 "" H 5650 5000 60  0001 C CNN
+F 3 "https://www.us.tdk-lambda.com/ftp/specs/i6a4w.pdf" H 5650 5000 60  0001 C CNN
+	1    5550 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2950 4950 2950
+Wire Wire Line
+	4950 2950 4950 3700
+Wire Wire Line
+	4950 4400 5050 4400
+Wire Wire Line
+	4550 3050 4550 3200
+Wire Wire Line
+	5050 2700 4550 2700
+Connection ~ 4550 2700
+Wire Wire Line
+	4550 3200 5050 3200
+Connection ~ 4550 3200
+Wire Wire Line
+	4550 3200 4550 3300
+Wire Wire Line
+	5050 4150 4550 4150
+Connection ~ 4550 4150
+Wire Wire Line
+	4550 4500 4550 4650
+Wire Wire Line
+	5050 4650 4550 4650
+Connection ~ 4550 4650
+Wire Wire Line
+	4550 4650 4550 4750
+Wire Wire Line
+	2950 2950 3750 2950
+Wire Wire Line
+	3750 2950 3750 3700
+Wire Wire Line
+	3750 3700 4950 3700
+Connection ~ 4950 3700
+Wire Wire Line
+	4950 3700 4950 4400
 $EndSCHEMATC
