@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AUIRFS8409-7P
+F https://www.infineon.com/dgdl/auirfs8409-7p.pdf?fileId=5546d462533600a4015355b745e314f0
+$ENDCMP
+#
+$CMP TMR_6-2415WI
+F https://assets.tracopower.com/20200109160327/TMR6WI/documents/tmr6wi-datasheet.pdf
+$ENDCMP
+#
+$CMP UEI30-050-Q12P-C
+F https://power.murata.com/pub/data/power/mdc_uei-30w.pdf
+$ENDCMP
+#
+$CMP UWE-12-10-Q12PB-C
+F https://power.murata.com/pub/data/power/uwe-100-120.pdf
+$ENDCMP
+#
+$CMP i6A4W020A033V-001-R
+F https://www.us.tdk-lambda.com/ftp/specs/i6a4w.pdf
+$ENDCMP
+#
+#End Doc Library
