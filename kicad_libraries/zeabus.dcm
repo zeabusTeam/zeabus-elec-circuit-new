@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AUIRFS8409-7P
-F https://www.infineon.com/dgdl/auirfs8409-7p.pdf?fileId=5546d462533600a4015355b745e314f0
+$CMP NMOS_TO-263
+K TO263, D2PAK
 $ENDCMP
 #
 $CMP TMR_6-2415WI

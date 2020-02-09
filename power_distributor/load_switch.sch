@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L zeabus:AUIRFS8409-7P Q?
-U 1 1 5E27042F
-P 5200 3350
-F 0 "Q?" V 5542 3350 50  0000 C CNN
-F 1 "AUIRFS8409-7P" V 5451 3350 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-6" H 5400 3450 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/auirfs8409-7p.pdf?fileId=5546d462533600a4015355b745e314f0" H 5200 3350 50  0001 C CNN
-	1    5200 3350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 5E27269A
 P 5750 4700
@@ -410,4 +399,15 @@ Wire Wire Line
 Wire Wire Line
 	7750 3250 7100 3250
 Connection ~ 7100 3250
+$Comp
+L zeabus:NMOS_TO-263 Q?
+U 1 1 5E410CF4
+P 5200 3350
+F 0 "Q?" V 5542 3350 50  0000 C CNN
+F 1 "AUIRFS8409-7P" V 5451 3350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-6" H 5400 3450 50  0001 C CNN
+F 3 "" H 5200 3350 50  0001 C CNN
+	1    5200 3350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
