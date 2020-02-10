@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -63,5 +63,11 @@ S 5200 3600 1800 800
 U 5E26A24F
 F0 "Load_switch" 50
 F1 "load_switch.sch" 50
+$EndSheet
+$Sheet
+S 2050 4400 2150 1000
+U 5E41D3C6
+F0 "Battery_ORing" 50
+F1 "battery_oring.sch" 50
 $EndSheet
 $EndSCHEMATC

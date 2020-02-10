@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -304,17 +304,6 @@ Wire Wire Line
 	3050 3650 3050 3700
 Wire Wire Line
 	6550 3250 6550 3350
-$Comp
-L Device:D_TVS_ALT D?
-U 1 1 5E30A34F
-P 5550 3650
-F 0 "D?" H 5550 3866 50  0000 C CNN
-F 1 "SMAJ17CA" H 5550 3775 50  0000 C CNN
-F 2 "" H 5550 3650 50  0001 C CNN
-F 3 "~" H 5550 3650 50  0001 C CNN
-	1    5550 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 3250 5850 3250
 Wire Wire Line
@@ -337,8 +326,6 @@ Wire Wire Line
 	5200 3650 5200 3900
 Wire Wire Line
 	5200 3650 5400 3650
-Wire Wire Line
-	5700 3650 5850 3650
 Connection ~ 6550 3650
 Wire Wire Line
 	6550 3550 6550 3650
@@ -409,5 +396,18 @@ F 2 "Package_TO_SOT_SMD:TO-263-6" H 5400 3450 50  0001 C CNN
 F 3 "" H 5200 3350 50  0001 C CNN
 	1    5200 3350
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3650 5850 3650
+$Comp
+L Device:D_TVS_ALT D?
+U 1 1 5E30A34F
+P 5550 3650
+F 0 "D?" H 5550 3866 50  0000 C CNN
+F 1 "SMAJ17CA" H 5550 3775 50  0000 C CNN
+F 2 "" H 5550 3650 50  0001 C CNN
+F 3 "~" H 5550 3650 50  0001 C CNN
+	1    5550 3650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
