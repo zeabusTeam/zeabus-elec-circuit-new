@@ -150,12 +150,12 @@ EN
 Wire Wire Line
 	2350 3250 2600 3250
 Text Label 2600 3000 0    50   ~ 0
-BATT
++BATT
 Wire Wire Line
 	2600 3250 2600 3000
 Connection ~ 2600 3250
 Text Label 6350 4300 0    50   ~ 0
-BATT
++BATT
 Wire Wire Line
 	5750 4400 5750 4600
 Wire Wire Line

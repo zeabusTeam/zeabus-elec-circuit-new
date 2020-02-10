@@ -266,7 +266,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3950 3000 50  000
 	1    0    0    -1  
 $EndComp
 Text Label 4050 2300 0    50   ~ 0
-BATT
++BATT
 $Comp
 L Device:R_Small R?
 U 1 1 5E424592
@@ -529,7 +529,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3950 6150 50  000
 	1    0    0    -1  
 $EndComp
 Text Label 4050 5450 0    50   ~ 0
-BATT
++BATT
 $Comp
 L Device:R_Small R?
 U 1 1 5E49C0A8
@@ -660,7 +660,7 @@ Connection ~ 5850 4750
 Wire Wire Line
 	5850 4750 6250 4750
 Text Label 8000 1350 0    50   ~ 0
-BATT
++BATT
 Wire Wire Line
 	8000 1600 8000 1350
 $Comp
