@@ -280,17 +280,6 @@ F 3 "~" H 4050 2500 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R_Small R?
-U 1 1 5E43098B
-P 3350 3200
-F 0 "R?" H 3409 3246 50  0000 L CNN
-F 1 "10M" H 3409 3155 50  0000 L CNN
-F 2 "" H 3350 3200 50  0001 C CNN
-F 3 "~" H 3350 3200 50  0001 C CNN
-	1    3350 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
 U 1 1 5E42C76A
 P 3550 3000
 F 0 "R?" V 3354 3000 50  0000 C CNN
@@ -302,14 +291,6 @@ F 3 "~" H 3550 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3750 3000 3650 3000
-Wire Wire Line
-	3450 3000 3350 3000
-Wire Wire Line
-	3350 3000 3350 3100
-Wire Wire Line
-	3350 3300 3350 3400
-Wire Wire Line
-	3350 3400 4050 3400
 Wire Wire Line
 	4050 3400 4050 3200
 Wire Wire Line
@@ -330,16 +311,6 @@ Wire Wire Line
 Text HLabel 8250 1600 2    50   Input ~ 0
 +BATT
 Connection ~ 6400 1600
-Wire Wire Line
-	2450 1600 3050 1600
-Wire Wire Line
-	3350 3000 3050 3000
-Wire Wire Line
-	3050 3000 3050 1600
-Connection ~ 3350 3000
-Connection ~ 3050 1600
-Wire Wire Line
-	3050 1600 3300 1600
 $Comp
 L power:GND #PWR?
 U 1 1 5E48D496
@@ -517,17 +488,6 @@ Wire Wire Line
 	6400 4750 6400 5450
 Wire Wire Line
 	5500 6150 5500 6250
-$Comp
-L Transistor_FET:2N7002 Q?
-U 1 1 5E49C09D
-P 3950 6150
-F 0 "Q?" H 4154 6196 50  0000 L CNN
-F 1 "2N7002" H 4154 6105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 6075 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3950 6150 50  0001 L CNN
-	1    3950 6150
-	1    0    0    -1  
-$EndComp
 Text Label 4050 5450 0    50   ~ 0
 +BATT
 $Comp
@@ -541,40 +501,6 @@ F 3 "~" H 4050 5650 50  0001 C CNN
 	1    4050 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5E49C0B2
-P 3350 6350
-F 0 "R?" H 3409 6396 50  0000 L CNN
-F 1 "10M" H 3409 6305 50  0000 L CNN
-F 2 "" H 3350 6350 50  0001 C CNN
-F 3 "~" H 3350 6350 50  0001 C CNN
-	1    3350 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5E49C0BC
-P 3550 6150
-F 0 "R?" V 3354 6150 50  0000 C CNN
-F 1 "1k" V 3445 6150 50  0000 C CNN
-F 2 "" H 3550 6150 50  0001 C CNN
-F 3 "~" H 3550 6150 50  0001 C CNN
-	1    3550 6150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3750 6150 3650 6150
-Wire Wire Line
-	3450 6150 3350 6150
-Wire Wire Line
-	3350 6150 3350 6250
-Wire Wire Line
-	3350 6450 3350 6550
-Wire Wire Line
-	3350 6550 4050 6550
-Wire Wire Line
-	4050 6550 4050 6350
 Wire Wire Line
 	4050 5450 4050 5550
 Wire Wire Line
@@ -584,30 +510,6 @@ Wire Wire Line
 Connection ~ 4050 5850
 Wire Wire Line
 	4050 5850 4050 5950
-Wire Wire Line
-	3350 6150 3050 6150
-Wire Wire Line
-	3050 6150 3050 4750
-Connection ~ 3350 6150
-$Comp
-L power:GND #PWR?
-U 1 1 5E49C0D4
-P 4050 6700
-F 0 "#PWR?" H 4050 6450 50  0001 C CNN
-F 1 "GND" H 4055 6527 50  0000 C CNN
-F 2 "" H 4050 6700 50  0001 C CNN
-F 3 "" H 4050 6700 50  0001 C CNN
-	1    4050 6700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 6550 4050 6700
-Connection ~ 4050 6550
-Wire Wire Line
-	2400 4750 3050 4750
-Wire Wire Line
-	3050 4750 3300 4750
-Connection ~ 3050 4750
 Wire Wire Line
 	3300 4750 3850 4750
 Connection ~ 3300 4750
@@ -674,4 +576,124 @@ F 3 "~" H 5512 4050 50  0001 C CNN
 	1    5500 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E5F40B9
+P 3050 3200
+F 0 "R?" H 3109 3246 50  0000 L CNN
+F 1 "10M" H 3109 3155 50  0000 L CNN
+F 2 "" H 3050 3200 50  0001 C CNN
+F 3 "~" H 3050 3200 50  0001 C CNN
+	1    3050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3300 3050 3400
+Wire Wire Line
+	3050 3400 4050 3400
+Wire Wire Line
+	3450 3000 3050 3000
+Wire Wire Line
+	3050 3000 3050 3100
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5E6011EB
+P 3950 6150
+F 0 "Q?" H 4154 6196 50  0000 L CNN
+F 1 "2N7002" H 4154 6105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 6075 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 3950 6150 50  0001 L CNN
+	1    3950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E6011F5
+P 3550 6150
+F 0 "R?" V 3354 6150 50  0000 C CNN
+F 1 "1k" V 3445 6150 50  0000 C CNN
+F 2 "" H 3550 6150 50  0001 C CNN
+F 3 "~" H 3550 6150 50  0001 C CNN
+	1    3550 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 6150 3650 6150
+Wire Wire Line
+	4050 6550 4050 6350
+$Comp
+L power:GND #PWR?
+U 1 1 5E601201
+P 4050 6700
+F 0 "#PWR?" H 4050 6450 50  0001 C CNN
+F 1 "GND" H 4055 6527 50  0000 C CNN
+F 2 "" H 4050 6700 50  0001 C CNN
+F 3 "" H 4050 6700 50  0001 C CNN
+	1    4050 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6550 4050 6700
+Connection ~ 4050 6550
+$Comp
+L Device:R_Small R?
+U 1 1 5E60120D
+P 3050 6350
+F 0 "R?" H 3109 6396 50  0000 L CNN
+F 1 "10M" H 3109 6305 50  0000 L CNN
+F 2 "" H 3050 6350 50  0001 C CNN
+F 3 "~" H 3050 6350 50  0001 C CNN
+	1    3050 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6450 3050 6550
+Wire Wire Line
+	3050 6550 4050 6550
+Wire Wire Line
+	3450 6150 3050 6150
+Wire Wire Line
+	3050 6150 3050 6250
+Wire Wire Line
+	2450 1600 3050 1600
+$Comp
+L Device:R_Small R?
+U 1 1 5E61CA30
+P 3050 2800
+F 0 "R?" H 3109 2846 50  0000 L CNN
+F 1 "10M" H 3109 2755 50  0000 L CNN
+F 2 "" H 3050 2800 50  0001 C CNN
+F 3 "~" H 3050 2800 50  0001 C CNN
+	1    3050 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2900 3050 3000
+Connection ~ 3050 3000
+Wire Wire Line
+	3050 1600 3050 2700
+Connection ~ 3050 1600
+Wire Wire Line
+	3050 1600 3300 1600
+Wire Wire Line
+	2400 4750 3050 4750
+$Comp
+L Device:R_Small R?
+U 1 1 5E627833
+P 3050 5950
+F 0 "R?" H 3109 5996 50  0000 L CNN
+F 1 "10M" H 3109 5905 50  0000 L CNN
+F 2 "" H 3050 5950 50  0001 C CNN
+F 3 "~" H 3050 5950 50  0001 C CNN
+	1    3050 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6050 3050 6150
+Connection ~ 3050 6150
+Wire Wire Line
+	3050 5850 3050 4750
+Connection ~ 3050 4750
+Wire Wire Line
+	3050 4750 3300 4750
 $EndSCHEMATC
