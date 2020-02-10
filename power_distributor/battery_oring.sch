@@ -66,7 +66,7 @@ L Mechanical:Heatsink_Pad HS?
 U 1 1 5E4296C4
 P 5500 950
 F 0 "HS?" H 5641 989 50  0000 L CNN
-F 1 "Heatsink_Pad" H 5641 898 50  0000 L CNN
+F 1 "DA-T263-101E" H 5641 898 50  0000 L CNN
 F 2 "" H 5512 900 50  0001 C CNN
 F 3 "~" H 5512 900 50  0001 C CNN
 	1    5500 950 
@@ -628,17 +628,6 @@ Connection ~ 6250 4750
 Wire Wire Line
 	6400 4750 6850 4750
 Connection ~ 6400 4750
-$Comp
-L Mechanical:Heatsink_Pad HS?
-U 1 1 5E4FCD1D
-P 5500 4100
-F 0 "HS?" H 5641 4139 50  0000 L CNN
-F 1 "Heatsink_Pad" H 5641 4048 50  0000 L CNN
-F 2 "" H 5512 4050 50  0001 C CNN
-F 3 "~" H 5512 4050 50  0001 C CNN
-	1    5500 4100
-	1    0    0    -1  
-$EndComp
 Connection ~ 7450 1600
 Wire Wire Line
 	7450 1600 8000 1600
@@ -674,4 +663,15 @@ Text Label 8000 1350 0    50   ~ 0
 BATT
 Wire Wire Line
 	8000 1600 8000 1350
+$Comp
+L Mechanical:Heatsink_Pad HS?
+U 1 1 5E5D02F6
+P 5500 4100
+F 0 "HS?" H 5641 4139 50  0000 L CNN
+F 1 "DA-T263-101E" H 5641 4048 50  0000 L CNN
+F 2 "" H 5512 4050 50  0001 C CNN
+F 3 "~" H 5512 4050 50  0001 C CNN
+	1    5500 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
